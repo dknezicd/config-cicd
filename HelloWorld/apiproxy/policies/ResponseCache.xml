@@ -3,6 +3,7 @@
     <DisplayName>ResponseCache</DisplayName>
     <Properties/>
     <CacheKey>
+    
         <Prefix/>
         <KeyFragment ref="request.uri" type="string"/>
     </CacheKey>
