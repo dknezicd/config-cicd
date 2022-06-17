@@ -78,7 +78,7 @@
       ],
       "apiProducts":[
          {
-            "name":"EchoProduct2",
+            "name":"EchoProduct",
             "apiResources":[
                "/",
                "/**"
