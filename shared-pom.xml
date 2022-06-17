@@ -71,18 +71,11 @@
                 <artifactId>apigee-config-maven-plugin</artifactId>
                 <version>2.3.0</version>
                 <executions>
-                	<execution>
-                        <id>create-config-specs</id>
-                        <phase>verify</phase>                        
-                        <goals>
-                            <goal>specs</goal>
-                        </goals>
-                    </execution>
                     <execution>
-                        <id>create-config-cache</id>
+                        <id>create-config-targetserver</id>
                         <phase>verify</phase>                        
                         <goals>
-                            <goal>caches</goal>
+                            <goal>targetservers</goal>
                         </goals>
                     </execution>
                     <execution>
@@ -99,18 +92,11 @@
                             <goal>aliases</goal>
                         </goals>
                     </execution>
-                     <execution>
+                    <execution>
                         <id>create-config-references</id>
                         <phase>verify</phase>                        
                         <goals>
                             <goal>references</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>create-config-targetserver</id>
-                        <phase>verify</phase>                        
-                        <goals>
-                            <goal>targetservers</goal>
                         </goals>
                     </execution>
                     <execution>
@@ -142,29 +128,15 @@
                         </goals>
                     </execution>
                     <execution>
-                        <id>create-config-company</id>
-                        <phase>install</phase>                        
-                        <goals>
-                            <goal>companies</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>create-config-companyapp</id>
-                        <phase>install</phase>                        
-                        <goals>
-                            <goal>companyapps</goal>
-                        </goals>
-                    </execution>
-                    <execution>
                         <id>create-config-reports</id>
                         <phase>install</phase>                        
                         <goals>
                             <goal>reports</goal>
                         </goals>
                     </execution>
-                    <execution> 
-                        <id>import-keys</id>
-                        <phase>install</phase>
+                    <execution>
+                        <id>import-app-keys</id>
+                        <phase>install</phase>                        
                         <goals>
                             <goal>importKeys</goal>
                         </goals>
