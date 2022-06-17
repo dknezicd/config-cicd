@@ -3,10 +3,12 @@
     <DisplayName>ResponseCache</DisplayName>
     <Properties/>
     <CacheKey>
-    
         <Prefix/>
         <KeyFragment ref="request.uri" type="string"/>
     </CacheKey>
     <CacheResource>echocache</CacheResource>
     <Scope>Exclusive</Scope>
+    <ExpirySettings>
+        <TimeoutInSeconds>600</TimeoutInSeconds>
+    </ExpirySettings>
 </ResponseCache>
