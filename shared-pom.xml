@@ -152,8 +152,8 @@
             <properties>
                 <apigee.profile>test</apigee.profile>
                 <apigee.hosturl>https://apigee.googleapis.com</apigee.hosturl>
-                <apigee.org>${ORG}</apigee.org>
-                <apigee.env>${ENV}</apigee.env>
+                <apigee.org>${APIGEE_ORG}</apigee.org>
+                <apigee.env>${APIGEE_TEST_ENV}</apigee.env>
                 
                 <apigee.bearer>${APIGEE_TOKEN}</apigee.bearer> <!-- optional: Bearer token override -->                
             </properties>
