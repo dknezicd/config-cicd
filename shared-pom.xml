@@ -154,7 +154,7 @@
                 <apigee.hosturl>https://apigee.googleapis.com</apigee.hosturl>
                 <apigee.org>${APIGEE_ORG}</apigee.org>
                 <apigee.env>${APIGEE_TEST_ENV}</apigee.env>
-                
+                <apigee.apiversion>v1</apigee.apiversion>
                 <apigee.bearer>${APIGEE_TOKEN}</apigee.bearer> <!-- optional: Bearer token override -->                
             </properties>
         </profile>
